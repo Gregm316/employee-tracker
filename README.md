@@ -18,7 +18,7 @@ This is an application utilizing Node.js, MySQL and Inquirer, which allows users
 
 ## [Installation](#table-of-contents)
 
-A user must clone this repository and make sure they have installed Node.js on their computer. Once cloned and installed, the user will be required to install the MySQL2, Inquirer, console.table and aciiart-logo modules by typing `npm install` in their terminal. Users will also be required to log into MySQL from the command line, preferably in a second terminal window using `mysql -u root -p` and typing in password immidately after. Finally, the user will `drop`, `create` and `use` the `employee-db`.
+A user must clone this repository and make sure they have installed Node.js on their computer. Once cloned and installed, the user will be required to install the MySQL2, Inquirer, console.table and aciiart-logo modules by typing `npm install` in their terminal. Users will also be required to log into MySQL from the command line, preferably in a second terminal window using `mysql -u root -p` and typing in password immidately after. Finally, the user will `drop`, `create` and `use` the `employee_db`.
 
 ## [Usage](#table-of-contents)
 
