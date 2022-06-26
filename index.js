@@ -1,6 +1,7 @@
+// Import connection.js
+const connection = require("./db/connection");
 // Require Modules
 const inquirer = require('inquirer');
-const mysql = require('mysql2');
 const consoleTable = require('console.table');
 
 // Module for Employee Tracker logo
@@ -8,21 +9,14 @@ const logo = require('asciiart-logo');
 const config = require('./package.json');
 console.log(logo(config).render());
 
-// Connect to db
-const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'password',
-    database: 'employee_db',
-});
-
-connection.connect((err) => {
-    if (err) throw err;
-    userPrompt();
-});
-
 // Function to start app and user prompts
-userPrompt = () => {
+init();
+
+function init() {
+    userPrompt();
+};
+
+function userPrompt() {
     inquirer.prompt([
         {
             name: 'startInquiry',
