@@ -22,7 +22,7 @@ A user must clone this repository and make sure they have installed Node.js on t
 
 ## [Usage](#table-of-contents)
 
-From the command line in the terminal, a user can type `npm start` or `node server` to open the Employee Tracker and begin the user prompts.
+From the command line in the terminal, a user can type `node server` to open the Employee Tracker and begin the user prompts.
 
 Click on the following link to view the video demonstration:
 
