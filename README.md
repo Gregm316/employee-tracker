@@ -24,8 +24,8 @@ A user must clone this repository and make sure they have installed Node.js on t
 
 From the command line in the terminal, a user can type `node server` to open the Employee Tracker and begin the user prompts.
 
-Click on the following link to view the video demonstration:
-
+### **Click on the following link to view the video demonstration:**
+https://drive.google.com/file/d/1KAqHKymfHmf8MKy6RXkPXNnTEwFfO8bU/view
 
 ### **Screenshot of the Employee Tracker from the Command Line:**
 
